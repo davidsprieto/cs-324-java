@@ -1,1 +1,4 @@
-# cs-324-java
+# CS-324: Design of Algorithms
+
+Programming Language:
+- Java
