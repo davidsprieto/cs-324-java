@@ -6,12 +6,12 @@ public class HarmonicNumber {
         // Testing non-recursive method
         int a = 5;
         double resultA = nonRecursiveHarmonicNumber(a);
-        System.out.println("The " + a + "th harmonic number is: " + resultA);
+        System.out.println("The " + a + "th harmonic number for a non-recursive method is: " + resultA);
 
         // Testing recursive method
         int b = 5;
         double resultB = recursiveHarmonicNumber(b);
-        System.out.println("The " + b + "th harmonic number is: " + resultB);
+        System.out.println("The " + b + "th harmonic number for a recursive method is: " + resultB);
     }
 
     public static double nonRecursiveHarmonicNumber(int n) {
