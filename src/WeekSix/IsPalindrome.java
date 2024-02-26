@@ -7,9 +7,23 @@ public class IsPalindrome {
         String testA = "gohangasalamiimalasagnahog";
         System.out.println("Is \"" + testA + "\" a palindrome using a non-recursive method?: " + nonRecursiveIsPalindrome(testA));
 
+        String testB = "racecar";
+        System.out.println("Is \"" + testB + "\" a palindrome using a non-recursive method?: " + nonRecursiveIsPalindrome(testB));
+
+        String testC = "Hello, world";
+        System.out.println("Is \"" + testC + "\" a palindrome using a non-recursive method?: " + nonRecursiveIsPalindrome(testC));
+
+        System.out.println(" ");
+
         // Testing recursive method
-        String testB = "gohangasalamiimalasagnahog";
-        System.out.println("Is \"" + testB + "\" a palindrome using a recursive method?: " + isPalindrome(testB));
+        String testD = "gohangasalamiimalasagnahog";
+        System.out.println("Is \"" + testD + "\" a palindrome using a recursive method?: " + isPalindrome(testD));
+
+        String testE = "racecar";
+        System.out.println("Is \"" + testE + "\" a palindrome using a non-recursive method?: " + nonRecursiveIsPalindrome(testE));
+
+        String testF = "Hello, world";
+        System.out.println("Is \"" + testF + "\" a palindrome using a non-recursive method?: " + nonRecursiveIsPalindrome(testF));
     }
 
     public static boolean nonRecursiveIsPalindrome(String str) {
